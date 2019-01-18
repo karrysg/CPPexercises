@@ -1,4 +1,7 @@
 //CircleArea.cpp
+//Answer to Chapter two exercise
+//From Thining in C++
+//By Bruce Eckels
 //Find the area of a circle given the radius
 #include<iostream>
 using namespace std;
