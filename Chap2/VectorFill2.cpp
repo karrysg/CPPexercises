@@ -2,7 +2,7 @@
 //Answer to Chapter 2 Exercise 9
 //Thinking in C++
 //by Bruce Eckels
-//Fill and display two vectors and add to a third
+//Fill and display two vectors and add together into a third
 
 #include <iostream>
 #include <vector>
@@ -10,7 +10,7 @@ using namespace std;
 
 int main() {
 
-  int vsize = 10;
+  int vsize = 20;
 
   vector<float> v1;
   vector<float> v2;
@@ -27,10 +27,10 @@ int main() {
 
 
   
-    cout << "Vector1\t  Vector2\t  Vector3" <<endl;
+    cout << "Vector1\t  Vector2\t Vector3" <<endl;
 
     for (int i = 0; i < vsize; i++)
-    cout << v1[i] << "\t  " << v2[i] << "\t  " << v3[i] << endl;
+    cout << v1[i] << "\t  " << v2[i] << "\t " << v3[i] << endl;
 
 return 0;
 
