@@ -10,8 +10,6 @@ using namespace std;
 
 int main() {
 
-  //int vsize = 25 //If needed
-
   vector<float> v;
 
 //Fill Vector
