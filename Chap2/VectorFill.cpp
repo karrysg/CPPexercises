@@ -13,7 +13,7 @@ int main() {
   vector<float> v;
 
   for ( int i = 0; i < 25; i++)
-    v.push_back( i + (rand() / (float)RAND_MAX * 10) + 1);
+    v.push_back( i + (rand() % 100 +1));
 
   for (int index = 0; index < v.size(); index++)
     cout << "Vector Index:[" << index <<  "]  Value:  " << v[index] <<endl;

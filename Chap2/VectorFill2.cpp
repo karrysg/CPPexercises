@@ -18,8 +18,8 @@ int main() {
 
 
   for ( int i = 0; i < vsize; i++) {
-    v1.push_back( i + (rand() / (float)RAND_MAX * 10) + 1);
-    v2.push_back( i + (rand() / (float)RAND_MAX * 20) + 1);
+    v1.push_back( i + (rand() % 100 +1));
+    v2.push_back( i + (rand() % 100 +1));
   }
 
   for ( int i = 0; i < vsize; i++)
