@@ -17,11 +17,10 @@ int main() {
       counter = 0;
 
         for (int j = 1; j <= prime ; j++)
-        
-            if (prime % j == 0) 
+          if (prime % j == 0) 
                 ++counter;
 
-            if (2 == counter)
+        if (2 == counter)
             cout << prime << " ";
 
           
