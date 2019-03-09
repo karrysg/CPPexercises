@@ -23,8 +23,6 @@ int main() {
         if (2 == counter)
             cout << prime << " ";
 
-          
-
         }   
 
   
