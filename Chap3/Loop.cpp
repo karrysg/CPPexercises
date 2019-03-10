@@ -13,3 +13,6 @@ meaning is. You must also decide what word will signal the end of the program.
 Solution to Chapter 3 Proplem 3
 Thinking in C++
 By Bruce Eckels**/
+
+#include <stdio.h>
+#include <string>
