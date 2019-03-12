@@ -10,7 +10,7 @@ give you exercise with control flow). Inside each case, print something
 meaningful. You must decide what the "interesting" words are and what the
 meaning is. You must also decide what word will signal the end of the program.
 
-Solution to Chapter 3 Proplem 3
+Solution to Chapter 3 Problem 3
 Thinking in C++
 By Bruce Eckels**/
 
