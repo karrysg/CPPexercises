@@ -16,3 +16,16 @@ By Bruce Eckels**/
 
 #include <stdio.h>
 #include <string>
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+string word;
+cin >> word;
+    while ( word == exit){
+        /* code */
+    }
+    
+}
