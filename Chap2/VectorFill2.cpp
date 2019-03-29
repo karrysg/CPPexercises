@@ -27,7 +27,7 @@ int main() {
 
 
   
-    cout << "Vector1\t  Vector2\t Vector3" <<endl;
+    cout << "Vector1\t  Vector2 Vector3" <<endl;
 
     for (int i = 0; i < vsize; i++)
     cout << v1[i] << "\t  " << v2[i] << "\t " << v3[i] << endl;

@@ -24,8 +24,8 @@ int main() {
 
 string word;
 cin >> word;
-    while ( word == exit){
-        /* code */
+    while ( word == "exit"){
+        break;
     }
     
 }
